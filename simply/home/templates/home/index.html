@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+        <div id="div">
+                Simply the best website...
+                <br>
+                {% if request.user.is_authenticated %}
+                    Welcome Back {{request.user.username}}!!
+                {% endif %}
+        </div>
+
+{% endblock content %}

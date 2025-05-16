@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(113, 229, 190);
+}
+
+#div{
+    background-color: bisque;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 20px;
+}
+
+#msg{
+    background-color: rgb(129, 178, 242);
+    color: black;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 20px;
+}
